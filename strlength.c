@@ -8,5 +8,5 @@
 ssize_t str_length(char *str)
 {
 ssize_t len = strlen(str);
-return write(STDOUT_FILENO, str, len);
+return (write(STDOUT_FILENO, str, len));
 }
