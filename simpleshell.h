@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
+char *str_break(const char *str1, const char *str2);
 void cpy_handler(__attribute__((unused)) int sg_ind);
 int str_cmp(char *str1, char *str2);
 char *str_append(char *dstn, const char *src);
@@ -27,7 +27,6 @@ void free_arr(char **arr);
 void *_realloc(void *ptr, size_t old_size, size_t new_size);
 char *_strdup(char *str);
 void inbuilt(char **shll, char *ls);
-ssize_t str_length(char *str);
 int main(void);
 char **tknizer(char *ls, char *delim);
 #endif

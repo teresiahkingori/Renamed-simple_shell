@@ -7,7 +7,7 @@ void env_main(void)
 char **env = environ;
 for (size_t i = 0; env[i] != NULL; ++i)
 {
-_puts(env[i]);
-_puts("\n");
+puts(env[i]);
+puts("\n");
 }
 }
