@@ -23,7 +23,7 @@ exit(0);
 }
 if (str_cmp2(line, "\n") == 0)
 continue;
-args = str_brk(line, " \t\r\n");
+args = str_break(line, " \t\r\n");
 _condns(args, line);
 if (str_cmp2(args[0], "env") == 0)
 {
