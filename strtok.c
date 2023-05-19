@@ -1,4 +1,4 @@
-#include <simpleshell.h>
+#include "simpleshell.h"
 
 /**
  *  * tknizer - tokenizes a string
@@ -12,16 +12,16 @@ char **tknizer(char *ls, char *delim)
 char *src = "NULL", **shll = NULL;
 size_t i = 0, old_size = 0;
 
-src = strtok(str, delim);
+src = strtok(ls, delim);
 while (src)
 {
-shll = _rllc(shll, old_size, ((i + 1) * sizeof(char *)));
-shll[i] = strdp(src);
+shll = _realloc(shll, old_size, ((i + 1) * sizeof(char *)));
+shll[i] = _strdup(src);
 src = strtok(NULL, delim);
 i++;
 old_size = i *sizeof(char *);
 }
-shll = _rllc(shll, old_size, ((i + 1) * sizeof(char *)));
+shll = _realloc(shll, old_size, ((i + 1) * sizeof(char *)));
 shll[i] = NULL;
 
 return (shll);

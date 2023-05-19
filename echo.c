@@ -21,18 +21,18 @@ if (num_chars == EOF)
 free(line);
 exit(0);
 }
-if (_strcmp2(line, "\n") == 0)
+if (str_cmp2(line, "\n") == 0)
 continue;
-args = str_break(line, " \t\r\n");
+args = str_brk(line, " \t\r\n");
 _condns(args, line);
-if (_strcmp2(args[0], "env") == 0)
+if (str_cmp2(args[0], "env") == 0)
 {
-prt_enve();
+puts(line *__s);
 free_arr(args);
 continue;
 }
 if (stat(args[0], &st) != 0)
-get_path(args);
+path(args);
 if (args[0] == NULL)
 {
 write(STDERR_FILENO, "Command not found\n", 18);

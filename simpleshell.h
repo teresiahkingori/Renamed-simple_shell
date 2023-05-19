@@ -23,10 +23,11 @@ int my_av(const char *str);
 void exec_cmd(char **shll);
 void echo_func(int insrt);
 void env_main(void);
-void arr_free(char **arr);
+void free_arr(char **arr);
 void *_realloc(void *ptr, size_t old_size, size_t new_size);
 char *_strdup(char *str);
 void inbuilt(char **shll, char *ls);
 ssize_t str_length(char *str);
 int main(void);
+char **tknizer(char *ls, char *delim);
 #endif
