@@ -1,4 +1,4 @@
-#include <simpleshell.h
+#include <simpleshell.h>
 /**
  *my_av- this function will change a string into an integer
  *str: string to convert
