@@ -21,7 +21,7 @@ arr = NULL;
 */
 int main(void)
 {
-signal(SIGINT, sgt_handler);
+signal(SIGINT, cpy_handler);
 echo_func(isatty(STDIN_FILENO));
 return (0);
 }
