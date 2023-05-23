@@ -5,8 +5,8 @@
  *    *
  *     * Return: returns the number of chars in the string
  **/
-ssize_t str_length(char *str)
+ssize_t len_str(char *str)
 {
-ssize_t len = strlen(str);
+ssize_t len = len_str(str);
 return (write(STDOUT_FILENO, str, len));
 }
