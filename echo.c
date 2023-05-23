@@ -23,11 +23,10 @@ exit(0);
 }
 if (str_cmp2(line, "\n") == 0)
 continue;
-args = str_break(line, " \t\r\n");
-_condns(args, line);
+args = (char **)str_break(line, " \t\r\n");
 if (str_cmp2(args[0], "env") == 0)
 {
-puts(line *__s);
+puts(line);
 free_arr(args);
 continue;
 }

@@ -12,13 +12,13 @@ while (env[len] != '=')
 len++;
 }
 pth = malloc(sizeof(char) * (len_str(env + len + 1) + 1));
-strcpy(pth, env + len + 1);
-tkn = str_break(pth, ":");
+cpy_str(pth, env + len + 1);
+tkn = (char **)str_break(pth, ":");
 free(pth);
 for (i = 0; tkn[i]; i++)
 {
 tempr = malloc((len_str(tkn[i] + len_str(shll[0]) + 2) * sizeof(char)));
-strcpy(tempr, tkn[i]);
+cpy_str(tempr, tkn[i]);
 str_append(tempr, "/");
 str_append(tempr, shll[0]);
 if (access(tempr, F_OK) == 0)

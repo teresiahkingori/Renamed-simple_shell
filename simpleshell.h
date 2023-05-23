@@ -15,7 +15,7 @@ void cpy_handler(__attribute__((unused)) int sg_ind);
 int str_cmp(char *str1, char *str2);
 char *str_append(char *dstn, const char *src);
 int str_cmp2(const char *str1, const char *str2);
-char *strcpy(char *dstn, char *src);
+char *cpy_str(char *dstn, char *src);
 ssize_t len_str(char *str);
 extern char **environ;
 void path(char **shll);
