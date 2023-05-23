@@ -10,16 +10,12 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-<<<<<<< HEAD
-int main(int ac, char **av)
-=======
-char *str_break(const char *str1, const char *str2);
->>>>>>> 34aab880eaa0db13ffff97ab3c2741af29686cf5
+
 void cpy_handler(__attribute__((unused)) int sg_ind);
 int str_cmp(char *str1, char *str2);
 char *str_append(char *dstn, const char *src);
 int str_cmp2(const char *str1, const char *str2);
-char *cpy_str(char *dstn, char *src);
+char strcpy(char *dstn, char *src);
 ssize_t len_str(char *str);
 extern char **environ;
 void path(char **shll);
@@ -33,4 +29,5 @@ char *_strdup(char *str);
 void inbuilt(char **shll, char *ls);
 int main(void);
 char **tknizer(char *ls, char *delim);
+char *str_break(const char *str1, const char *str2);
 #endif
