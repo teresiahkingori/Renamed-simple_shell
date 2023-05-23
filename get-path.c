@@ -1,4 +1,6 @@
 #include "simpleshell.h"
+
+
 /**
  *  * path - function for getting the path
  *   * @shll: the command line
@@ -13,7 +15,7 @@ len++;
 }
 pth = malloc(sizeof(char) * (len_str(env + len + 1) + 1));
 cpy_str(pth, env + len + 1);
-tkn = (char **)str_break(pth, ":");
+tkn = tknizer(pth, ":");
 free(pth);
 for (i = 0; tkn[i]; i++)
 {

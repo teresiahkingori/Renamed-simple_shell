@@ -1,4 +1,6 @@
 #include "simpleshell.h"
+#include "echo.c"
+#include "cpy_handler.c"
 /**
 *arr_free - frees a char array and sets all elements to NULL
 *@arr: array that will be freed

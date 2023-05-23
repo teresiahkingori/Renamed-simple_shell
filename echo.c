@@ -1,5 +1,8 @@
 #include "simpleshell.h"
-
+#include "cmp_string.c"
+#include "strtok.c"
+#include "exec.c"
+#include "get-path.c"
 /**
  * echo_func - function that loops the value input by user.
  * @insrt: return value either 0 or 1
@@ -23,7 +26,7 @@ exit(0);
 }
 if (str_cmp2(line, "\n") == 0)
 continue;
-args = (char **)str_break(line, " \t\r\n");
+args = tknizer(line, " \t\r\n");
 if (str_cmp2(args[0], "env") == 0)
 {
 puts(line);

@@ -29,5 +29,5 @@ char *_strdup(char *str);
 void inbuilt(char **shll, char *ls);
 int main(void);
 char **tknizer(char *ls, char *delim);
-char *str_break(const char *str1, const char *str2);
+
 #endif
