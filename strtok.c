@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
 #include "simpleshell.h"
 #include "fork.c"
 /**

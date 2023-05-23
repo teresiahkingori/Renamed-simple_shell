@@ -2,8 +2,8 @@
 #include "cmp_string.c"
 #include "strtok.c"
 #include "exec.c"
-#include "get-path.c"
-/**
+/*#include "get-path.c"
+**
  * echo_func - function that loops the value input by user.
  * @insrt: return value either 0 or 1
  */

@@ -1,7 +1,8 @@
 #include "simpleshell.h"
-
-
-/**
+#include "cmp_string.c"
+#include "strtok.c"
+/*#include "main.c"
+ **
  *  * path - function for getting the path
  *   * @shll: the command line
  **/

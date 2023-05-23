@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 #include "simpleshell.h"
 /**
  *my_av- this function will change a string into an integer
