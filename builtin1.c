@@ -6,7 +6,7 @@
  */
 void inbuilt(char **shll, char *ls)
 {
-if (strncmp(shll[0], "exit") == 0)
+if (str_cmp(shll[0], "exit") == 0)
 {
 free(ls);
 if (shll[1])
