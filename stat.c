@@ -4,11 +4,11 @@
 #include <unistd.h>
 #include "simpleshell.h"
 /*
- *  * stat - this is a stat example.
+ *  * stat1 - this is a stat example.
  *   * Gets the status call of a file
  *    * Return: 0
  **/
-int stat(int ac, char **av)
+int stat1(int ac, char **av)
 {
 unsigned int i;
 struct stat st;

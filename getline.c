@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "simpleshell.h"
 /*
- *getline - function that accepts name input and displays the
+ *getline1 - function that accepts name input and displays the
  *buffer size
  */
 
-int getline(void)
+int getline1(void)
 {
 size_t n = 10;
 char *buf = malloc(sizeof(char) * n);

@@ -29,5 +29,12 @@ char *_strdup(char *str);
 void inbuilt(char **shll, char *ls);
 int main(void);
 char **tknizer(char *ls, char *delim);
+int prmpt(void);
+int wait_in(void);
+int prc_id(void);
+int my_ppid(void);
+int getline1(void);
+int stat1(int ac, char **av);
+ssize_t len_str1(char *str);
 
 #endif
