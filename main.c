@@ -1,7 +1,7 @@
 #include "simpleshell.h"
 
 /**
-*arr_free - frees a char array and sets all elements to NULL
+*free_arr - frees a char array and sets all elements to NULL
 *@arr: array that will be freed
 */
 void free_arr(char **arr)

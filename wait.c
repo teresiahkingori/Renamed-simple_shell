@@ -3,7 +3,8 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 /*
- ** wait_in - asks the user to wait for pid
+ * main - function that prints the process identifier
+ * wait_in - asks the user to wait for pid
  ** return: 0.
  **/
 int main(void)
