@@ -1,6 +1,6 @@
 #include "simpleshell.h"
-/*
- * @exec_cmd: - this will execute a command.
+/**
+ * exec_cmd - this will execute a command.
  * @shll: executed command.
  */
 void exec_cmd(char **shll)

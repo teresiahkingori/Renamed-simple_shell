@@ -1,6 +1,6 @@
 #include "simpleshell.h"
 
-/*
+/**
  * path - function for getting the path
  * @shll: the command line
  */

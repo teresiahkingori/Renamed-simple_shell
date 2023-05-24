@@ -3,11 +3,13 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "simpleshell.h"
-/*
- *  * stat1 - this is a stat example.
- *   * Gets the status call of a file
- *    * Return: 0
- **/
+/**
+ * stat1- this is a stat example.
+ * Gets the status call of a file
+ * @ac: this is a parameter
+ * @av: parameter
+ * Return: 0
+ */
 int stat1(int ac, char **av)
 {
 unsigned int i;

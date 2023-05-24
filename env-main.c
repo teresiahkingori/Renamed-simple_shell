@@ -1,6 +1,6 @@
 #include "simpleshell.h"
-/*
- * @env_main - this function prints the environment
+/**
+ * env_main - this function prints the environment
  */
 void env_main(void)
 {

@@ -1,5 +1,5 @@
 #include "simpleshell.h"
-/*
+/**
  *my_av - this function will change a string into an integer
  *@str: the string to convert
  *Return: the integer value of a str

@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "simpleshell.h"
-/*
- *getline1 - function that accepts name input and displays the
- *buffer size
+/**
+ * getline1 - function that accepts name input and displays the
+ * buffer size
+ * Return: 0
  */
 
 int getline1(void)

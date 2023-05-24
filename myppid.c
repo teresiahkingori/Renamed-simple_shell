@@ -2,6 +2,12 @@
 #include <unistd.h>
 #include "simpleshell.h"
 
+/**
+ * my_ppid- Entry point
+ * Description: this is the my ppid
+ * Return: Always 0 (Success)
+ */
+
 int my_ppid(void)
 {
 pid_t ppid;

@@ -1,7 +1,6 @@
 #include "simpleshell.h"
-
 /**
- * _realloc -it reallocates memory block.
+ * _realloc- it reallocates memory block.
  * @ptr: pointer to previously allocated memory.
  * @old_size: size of the space allocated to ptr.
  * @new_size: size of the new memory block.
@@ -34,7 +33,7 @@ new_ptr[i] = old_ptr[i];
 free(ptr);
 return (new_ptr);
 }
-/*
+/**
  * _strdup - function that the duplicates a string.
  * @str: string duplicated.
  * Return: pointer to the new allocated memory block.
