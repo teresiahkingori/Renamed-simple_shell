@@ -2,11 +2,12 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
+#include "simpleshell.h"
 /*
  * wait_in - asks the user to wait for pid
  ** return: 0.
  **/
-int main(void)
+int wait_in(void)
 {
 pid_t baby_pid;
 int status;

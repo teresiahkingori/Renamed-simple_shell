@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include "simpleshell.h"
 
-int main(void)
+int my_ppid(void)
 {
 pid_t ppid;
 ppid = getppid();

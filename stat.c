@@ -2,12 +2,13 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include "simpleshell.h"
 /*
- *  * file_find - this is a stat example.
+ *  * stat - this is a stat example.
  *   * Gets the status call of a file
  *    * Return: 0
  **/
-int main(int ac, char **av)
+int stat(int ac, char **av)
 {
 unsigned int i;
 struct stat st;
