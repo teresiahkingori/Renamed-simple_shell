@@ -4,9 +4,9 @@
 #include <sys/wait.h>
 #include "simpleshell.h"
 /**
- * wait_in: Entry point
- *
- * return: 0.
+ * wait_in - function for getting the wait
+ * this file will perform specified functions
+ * Return: 0.
  */
 int wait_in(void)
 {
