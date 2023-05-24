@@ -1,6 +1,4 @@
 #include "simpleshell.h"
-#include "cmp_string.c"
-#include "av.c"
 /**
  *inbuilt - checks for built in commands
  *@shll: cmd line
