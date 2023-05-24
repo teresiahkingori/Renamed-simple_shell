@@ -1,10 +1,9 @@
 #include "simpleshell.h"
 
-/*#include "main.c"
- **
- *  * path - function for getting the path
- *   * @shll: the command line
- **/
+/*
+ * path - function for getting the path
+ * @shll: the command line
+ */
 void path(char **shll)
 {
 int i, len = 0;

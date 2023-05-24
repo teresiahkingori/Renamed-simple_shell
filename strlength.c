@@ -1,6 +1,6 @@
 #include "simpleshell.h"
 /**
- *  * str_length - prints the length of a given string
+ *  * len_str - prints the length of a given string
  *   * @str: string to be printed
  *    *
  *     * Return: returns the number of chars in the string
