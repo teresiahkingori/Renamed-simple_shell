@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
 #include "simpleshell.h"
-#include "fork.c"
+
 /**
  *  * tknizer - tokenizes a string
  *   * @ls: string to be parsed

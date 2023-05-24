@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-/*#include "simpleshell.h"
-**
+#include "simpleshell.h"
+/**
  * len_str - returns the length of a string
  * @str: string to be used
  *
