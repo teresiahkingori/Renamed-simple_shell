@@ -6,6 +6,6 @@
 void cpy_handler(__attribute__((unused)) int sg_ind)
 {
 signal(SIGINT, cpy_handler);
-ssize_t len = write(STDOUT_FILENO, "\n$", 3);
-(void) len;
+sg_ind = write(STDOUT_FILENO, "\n$", 3);
+(void) len_str;
 }
